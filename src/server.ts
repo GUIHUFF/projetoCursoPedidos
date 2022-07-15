@@ -25,4 +25,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 
 });
 
-app.listen(3333, () => console.log('Server Online'));
+app.listen(3333, () => console.log('------------------\n  Server Online \n  localhost:3333 \n------------------'));
